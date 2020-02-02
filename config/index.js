@@ -6,6 +6,9 @@ module.exports = {
         uploads: './public/uploads'
     },
     models:[],
+    server:{
+        port:"8888"
+    },
     dbs: {
         defaults: {
             "name": "ncovdb", "user": "pgncov", "pass": "plAXL1S%5E", "host": "127.0.0.1", "dialect": "postgres",
