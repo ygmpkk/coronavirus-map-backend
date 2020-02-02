@@ -2,8 +2,8 @@
 
 ## 项目技术栈
 + Express
-+ Seqlize
-+ PostgreSQL
++ Seqlize 
++ PostgreSQL 10.11
 
 ## 目录结构
 + bin ```系统服务程序的存储路径，一些需要初始启动的和需要做进程守护的都放在这里```
