@@ -1,4 +1,5 @@
 const logger = require('log4js').getLogger('question-prop');
+const assert = require('assert');
 const router = require('express').Router();
 const { buffer } = require('../../lib');
 

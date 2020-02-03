@@ -1,6 +1,7 @@
 const logger = require('log4js').getLogger('question-paper');
+const assert = require('assert');
 const router = require('express').Router();
-const { buffer } = require('../..pap/lib');
+const { buffer } = require('../../lib');
 
 /**
  * 问卷管理
